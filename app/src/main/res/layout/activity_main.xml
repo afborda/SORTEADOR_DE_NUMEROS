@@ -64,8 +64,10 @@
                 android:layout_height="0dp"
                 android:layout_margin="36dp"
                 app:layout_constraintBottom_toTopOf="@+id/btn_draw"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView"
-                tools:layout_editor_absoluteX="36dp" />
+                app:layout_constraintVertical_bias="1.0" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_draw"
@@ -98,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
-                android:layout_marginTop="8dp"
+                android:paddingStart="36dp"
                 android:drawablePadding="16dp"
                 android:text="@string/o_sorteador_utiliza_um_algoritmo"
                 android:textAppearance="@style/TextAppearance.RobotoFlex.ParagraphMedium"
@@ -125,8 +127,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
-                android:layout_marginTop="8dp"
                 android:layout_marginBottom="36dp"
+                android:paddingStart="36dp"
                 android:drawablePadding="16dp"
                 android:text="@string/sim_voc_pode_definir_os_valores"
                 android:textAppearance="@style/TextAppearance.RobotoFlex.ParagraphMedium"
