@@ -20,7 +20,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/bgPrincipal"
@@ -46,7 +46,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="36dp"
@@ -63,11 +63,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="36dp"
-                app:layout_constraintBottom_toTopOf="@+id/btn_draw"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/btn_draw"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+                />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_draw"
@@ -78,7 +78,11 @@
                 android:drawableEnd="@drawable/ic_ir"
                 android:paddingHorizontal="48dp"
                 android:text="@string/sortear"
-                app:layout_constraintBottom_toBottomOf="@+id/bgPrincipal" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fcvContent"
+
+                />
 
             <TextView
                 android:id="@+id/tvFirstInfoTitle"
@@ -134,8 +138,6 @@
                 android:textAppearance="@style/TextAppearance.RobotoFlex.ParagraphMedium"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvSecondInfoTitle" />
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
