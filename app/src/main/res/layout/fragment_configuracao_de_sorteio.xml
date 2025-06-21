@@ -57,12 +57,13 @@
                 android:layout_height="8dp" />
 
             <EditText
+                android:id="@+id/etAmoutNumbers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_edittext"
                 android:inputType="number"
                 android:padding="16dp"
-                android:text="@string/_1"
+                android:text="@string/_2"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.RobotoFlex.LabelMedium"
                 android:textColor="@android:color/white" />
@@ -91,6 +92,7 @@
                 android:layout_height="8dp" />
 
             <EditText
+                android:id="@+id/etInitialLimit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_edittext"
@@ -125,12 +127,13 @@
                 android:layout_height="8dp" />
 
             <EditText
+                android:id="@+id/etFinalLimit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_edittext"
                 android:inputType="number"
                 android:padding="16dp"
-                android:text="@string/_1"
+                android:text="@string/_100"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.RobotoFlex.LabelMedium"
                 android:textColor="@android:color/white" />
@@ -158,7 +161,6 @@
         app:layout_constraintStart_toEndOf="@+id/swtNotRepeatNumbers"
         app:layout_constraintTop_toTopOf="@+id/swtNotRepeatNumbers" />
 
-        " />
 
 
 

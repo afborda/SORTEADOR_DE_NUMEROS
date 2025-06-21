@@ -64,16 +64,16 @@
                 android:layout_height="0dp"
                 android:layout_margin="36dp"
                 app:defaultNavHost="true"
-                android:name="androidx.fragment.app.FragmentContainerView"
                 app:navGraph="@navigation/main_content_nav_graph"
+                android:name="androidx.navigation.fragment.NavHostFragment"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/btn_draw"
+                app:layout_constraintBottom_toTopOf="@+id/btnDraw"
                 app:layout_constraintTop_toBottomOf="@+id/tvTitle"
                 />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_draw"
+                android:id="@+id/btnDraw"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="36dp"
@@ -99,7 +99,7 @@
                 android:textColor="@color/content_brand"
                 app:drawableStartCompat="@drawable/ic_chat"
                 app:drawableTint="@color/content_brand"
-                app:layout_constraintTop_toBottomOf="@+id/btn_draw" />
+                app:layout_constraintTop_toBottomOf="@+id/btnDraw" />
 
 
             <TextView

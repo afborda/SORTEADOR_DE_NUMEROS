@@ -4,6 +4,7 @@
     <string name="img_do_logo">imagem do logo</string>
     <string name="sorteador_de_numeros">SORTEADOR DE NÚMEROS</string>
     <string name="sortear">Sortear</string>
+    <string name="sortear_novamente">Sortear Novamente</string>
     <string name="como_funciona_o_sorteador_de_numeros">Como funciona o sorteador de números?</string>
     <string name="o_sorteador_utiliza_um_algoritmo">O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</string>
     <string name="sim_voc_pode_definir_os_valores">Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</string>
@@ -19,4 +20,6 @@
     <string name="nao_repetir_numeros">Não repetir números</string>
     <string name="resultado_sorteio">RESULTADO SORTEIO</string>
     <string name="_1_resultado"><![CDATA[1º resultado]]></string>
+    <string name="_100">100</string>
+    <string name="_2">2</string>
 </resources>
