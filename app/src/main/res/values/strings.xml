@@ -20,6 +20,7 @@
     <string name="nao_repetir_numeros">Não repetir números</string>
     <string name="resultado_sorteio">RESULTADO SORTEIO</string>
     <string name="_1_resultado"><![CDATA[1º resultado]]></string>
+    <string name="numero_do_sorteio">%1$sº RESULTADO</string>
     <string name="_100">100</string>
     <string name="_2">2</string>
 </resources>
